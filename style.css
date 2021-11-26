@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Poppins&display=swap');
 
+@font-face {
+  font-family: TitoloFont;
+  src: url(88055567e3d928bcb1e67e967081572e.ttf);
+}
+
 body {
   background-color: rgba(18,18,18,255);
   margin: 0px;
@@ -15,7 +20,6 @@ nav {
   align-items: center;
   padding: 0 10px;
   border-bottom: 0px solid #000000;
-  /* ⌄ ⌄ ⌄ blur property ⌄ ⌄ ⌄ */
   backdrop-filter: blur(10px);
 }
 .brand {
@@ -23,7 +27,7 @@ nav {
   margin-bottom: 0;
 }
 .nav-right {
-  display: flex;
+  display: fixed;
   justify-content: flex-end;
   margin-right: 4vw;
 }
@@ -46,7 +50,7 @@ nav {
   padding-right: 10px;
 }
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'TitoloFont', sans-serif;
   font-weight: 700;
   line-height: 1;
   font-size: 50px;
@@ -54,9 +58,9 @@ h1 {
   color: white;
 }
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'BourgeoisMedium';
   font-weight: normal;
-  font-size: 21px;
+  font-size: 25px;
   line-height: 23px;
   letter-spacing: 2px;
   margin: 5px 100px 23px 10px;
@@ -99,3 +103,4 @@ article p:last-child {
     font-size: 50px;
   }
 }
+
